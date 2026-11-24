@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tecnofácil — Tecnología cotidiana, explicada fácil</title>
+<meta name="description" content="Guías claras y sin tecnicismos para resolver los problemas de tecnología más comunes: celular lleno, archivos borrados, computadora lenta, WiFi y más.">
+<meta name="theme-color" content="#0E6E5B">
+<link rel="canonical" href="https://tecnofacil.example/index.html">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tecnofácil — Tecnología cotidiana, explicada fácil">
+<meta property="og:description" content="Guías claras y sin tecnicismos para resolver los problemas de tecnología más comunes.">
+<meta property="og:url" content="https://tecnofacil.example/index.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tecnofácil",
+  "url": "https://tecnofacil.example/index.html",
+  "description": "Guías claras y sin tecnicismos para resolver los problemas de tecnología más comunes."
+}
+</script>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="envoltorio encabezado-fila">
+      <a href="index.html" class="marca">
+        <span class="insignia">T</span>
+        <span class="nombre-marca">Tecnofácil</span>
+      </a>
+      <nav class="nav-principal">
+        <a href="sobre.html">Sobre nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero envoltorio">
+      <h1>Tecnología cotidiana,<br>explicada fácil.</h1>
+      <p class="subhead">Guías cortas y sin tecnicismos para los problemas de celular, computadora, internet y seguridad que todos tenemos alguna vez.</p>
+
+      <div class="buscador">
+        <label for="buscador-articulos" class="sr-only">Buscar artículos</label>
+        <input type="search" id="buscador-articulos" placeholder="Busca por palabra, ej. “fotos” o “WiFi”" autocomplete="off">
+      </div>
+      <div class="chips" role="group" aria-label="Filtrar por categoría">
+        <button class="chip" data-categoria="Todas" aria-pressed="true">Todas</button>
+        <button class="chip" data-categoria="Celulares" aria-pressed="false">Celulares</button>
+        <button class="chip" data-categoria="Computadoras" aria-pressed="false">Computadoras</button>
+        <button class="chip" data-categoria="Internet y redes" aria-pressed="false">Internet y redes</button>
+        <button class="chip" data-categoria="Archivos y datos" aria-pressed="false">Archivos y datos</button>
+        <button class="chip" data-categoria="Seguridad" aria-pressed="false">Seguridad</button>
+      </div>
+    </section>
+
+    <p id="sin-resultados" class="sin-resultados envoltorio">No encontramos artículos con esa búsqueda. Prueba con otra palabra.</p>
+
+    <div class="cuadricula">
+      <article class="tarjeta" data-categoria="Seguridad">
+        <p class="categoria">Seguridad</p>
+        <h2><a href="articulos/phishing-como-detectar-estafas.html">Cómo saber si un mensaje o correo es una estafa (phishing)</a></h2>
+        <p>Las señales que delatan un mensaje falso, y qué hacer en los primeros minutos si ya diste clic.</p>
+        <p class="meta">5 min de lectura · 24 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Celulares">
+        <p class="categoria">Celulares</p>
+        <h2><a href="articulos/respaldo-antes-de-cambiar-celular.html">Checklist: qué respaldar antes de cambiar de celular</a></h2>
+        <p>Todo lo que deberías guardar antes de vender, regalar o cambiar tu celular, para no perder nada importante.</p>
+        <p class="meta">3 min de lectura · 22 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Internet y redes">
+        <p class="categoria">Internet y redes</p>
+        <h2><a href="articulos/wifi-lento-o-robado.html">Cómo saber si alguien más está usando tu WiFi sin permiso</a></h2>
+        <p>Tu internet anda lento y no sabes por qué. Te explico cómo revisarlo y qué hacer si alguien se está colando.</p>
+        <p class="meta">4 min de lectura · 20 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Celulares">
+        <p class="categoria">Celulares</p>
+        <h2><a href="articulos/bateria-celular-dura-mas.html">Cómo hacer que la batería de tu celular dure más</a></h2>
+        <p>Qué revisar para estirarla hoy mismo, y cómo cuidarla para que no se degrade tan rápido con el tiempo.</p>
+        <p class="meta">4 min de lectura · 18 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Computadoras">
+        <p class="categoria">Computadoras</p>
+        <h2><a href="articulos/computadora-lenta.html">Por qué tu computadora anda lenta (y cómo arreglarlo sin formatear)</a></h2>
+        <p>Antes de resignarte a formatear, prueba estos pasos: la mayoría de las veces el problema tiene arreglo.</p>
+        <p class="meta">5 min de lectura · 17 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Seguridad">
+        <p class="categoria">Seguridad</p>
+        <h2><a href="articulos/contrasenas-seguras-guia.html">Cómo crear contraseñas seguras sin memorizar 30 distintas</a></h2>
+        <p>Una forma práctica de tener contraseñas seguras y distintas en cada cuenta, sin volverte loco.</p>
+        <p class="meta">4 min de lectura · 16 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Internet y redes">
+        <p class="categoria">Internet y redes</p>
+        <h2><a href="articulos/wifi-no-conecta-solucion.html">Por qué tu WiFi no conecta y cómo solucionarlo paso a paso</a></h2>
+        <p>Desde reiniciar el router de verdad hasta revisar interferencia y firmware, en el orden correcto.</p>
+        <p class="meta">4 min de lectura · 14 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Archivos y datos">
+        <p class="categoria">Archivos y datos</p>
+        <h2><a href="articulos/recuperar-archivos-borrados.html">Cómo recuperar fotos y archivos que borraste por accidente</a></h2>
+        <p>No está todo perdido. Estas son tus opciones reales, desde la papelera hasta programas de recuperación.</p>
+        <p class="meta">5 min de lectura · 13 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Seguridad">
+        <p class="categoria">Seguridad</p>
+        <h2><a href="articulos/malware-celular-senales.html">Cómo saber si tu celular tiene una app espía o malware</a></h2>
+        <p>Las señales reales que vale la pena revisar, y qué hacer si confirmas tus sospechas.</p>
+        <p class="meta">4 min de lectura · 11 de noviembre de 2026</p>
+      </article>
+
+      <article class="tarjeta" data-categoria="Celulares">
+        <p class="categoria">Celulares</p>
+        <h2><a href="articulos/liberar-espacio-celular.html">Cómo liberar espacio en tu celular sin borrar tus fotos</a></h2>
+        <p>Cuando tu celular dice "almacenamiento lleno" no siempre hay que sacrificar tus fotos. Aquí el orden correcto.</p>
+        <p class="meta">4 min de lectura · 10 de noviembre de 2026</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="envoltorio pie-fila">
+      <p>&copy; <span id="anio"></span> Tecnofácil. Todos los derechos reservados.</p>
+      <nav>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="terminos.html">Términos</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
